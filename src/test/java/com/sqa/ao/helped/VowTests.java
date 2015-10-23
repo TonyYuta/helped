@@ -7,51 +7,51 @@ import org.testng.annotations.Test;
 public class VowTests {
 	@DataProvider(name = "Not Vowels Characters")
 	public static Object[][] dataSet2() {
-		Object[][] data = new Object[][] { { "test", "tst" }, { "java classes", "jv clsss" }, {}, {},
-				{ "%^&**&+_-=^^*^%$$% $", "%^&**&+_-=^^*^%$$% $" }, { "1234 5 6", "1234 5 6" }, { "AaEeUuIiOoYy", "" },
-				{ "a a a", "  " }, { "1     a", "1     " } };
+		Object[][] data = new Object[][] { { "test", "tst" }, { "java classes", "jv clsss" }, { "google", "ggl" },
+				{ "yg yg", "g g" }, { "ydysya h", "ds h" }, { "1234 5 6", "1234 5 6" }, { "AaEeUuIiO oYy", " " },
+				{ "a ab a", "  b " }, { "1     a", "1     " } };
 		return data;
 	}
 
 	@Test(groups = { "Phase2", "Phase3" }, dataProvider = "Not Vowels Characters")
-	public void testDivNumberAO(int num1, int num2, double expResult) {
-		int actResult = (int) com.sqa.ao.help.math.Calculations.divideNumber(num1, num2);
+	public void testRemoveVowelsCharactersAO(String str, String expResult) {
+		String actResult = com.sqa.ao.help.string.Removing.removeVowelsCharacters(str);
 		Assert.assertEquals(actResult, expResult);
 	}
 
 	@Test(groups = { "Phase2", "Phase3" }, dataProvider = "Not Vowels Characters")
-	public void testDivNumberAP(double num1, double num2, double expResult) {
-		double actResult = com.sqa.ap.help.math.Calculations.divideNumber(num1, num2);
+	public void testRemoveVowelsCharactersAP(String str, String expResult) {
+		String actResult = com.sqa.ap.help.strings.Removing.removeVowelsCharacters(str);
 		Assert.assertEquals(actResult, expResult);
 	}
 
 	@Test(groups = { "Phase2", "Phase3" }, dataProvider = "Not Vowels Characters")
-	public void testDivNumberLL(double num1, double num2, double expResult) {
-		double actResult = com.sqa.ll.helpers.math.Calculations.divideNumber(num1, num2);
+	public void testRemoveVowelsCharactersLL(String str, String expResult) {
+		String actResult = com.sqa.ll.helpers.strings.Removing.removeVowelsCharacters(str);
 		Assert.assertEquals(actResult, expResult);
 	}
 
 	@Test(groups = { "Phase2", "Phase3" }, dataProvider = "Not Vowels Characters")
-	public void testDivNumberMS(double num1, double num2, double expResult) {
-		double actResult = com.sqa.ms.help.math.Calculations.divideNumber(num1, num2);
+	public void testRemoveVowelsCharactersMS(String str, String expResult) {
+		String actResult = com.sqa.ms.help.string.Removing.removeVowelsCharacters(str);
 		Assert.assertEquals(actResult, expResult);
 	}
 
 	@Test(groups = { "Phase2", "Phase3" }, dataProvider = "Not Vowels Characters")
-	public void testDivNumberPN(double num1, double num2, double expResult) {
-		double actResult = com.sqa.pn.help.math.Calculations.divideNumber(num1, num2);
+	public void testRemoveVowelsCharactersPN(String str, String expResult) {
+		String actResult = com.sqa.pn.help.strings.Removing.removeVowelCharacters(str);
 		Assert.assertEquals(actResult, expResult);
 	}
 
 	@Test(groups = { "Phase2", "Phase3" }, dataProvider = "Not Vowels Characters")
-	public void testDivNumberRA(double num1, double num2, double expResult) {
-		double actResult = com.sqa.ra.helpers.math.Calculations.divideNumber(num1, num2);
+	public void testRemoveVowelsCharactersRA(String str, String expResult) {
+		String actResult = com.sqa.ra.helpers.strings.Removing.removeVowelsCharacters(str);
 		Assert.assertEquals(actResult, expResult);
 	}
 
 	@Test(groups = { "Phase2", "Phase3" }, dataProvider = "Not Vowels Characters")
-	public void testDivNumberTS(double num1, double num2, double expResult) {
-		double actResult = com.sqa.ts.help.math.Calculations.divideNumber(num1, num2);
+	public void testRemoveVowelsCharactersTS(String str, String expResult) {
+		String actResult = com.sqa.ts.help.strings.Removing.removeVowelCharacters(str);
 		Assert.assertEquals(actResult, expResult);
 	}
 

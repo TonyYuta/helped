@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sqa.ao.helped.DivTests">
+      <class name="com.sqa.ao.helped.VowTests">
         <methods>
-          <include name="testDivNumberTS" invocation-numbers="7"/>
-          <include name="testDivNumberLL" invocation-numbers="7"/>
-          <include name="testDivNumberAO" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
-          <include name="testDivNumberAP" invocation-numbers="7"/>
-          <include name="testDivNumberMS" invocation-numbers="7"/>
-          <include name="testDivNumberRA" invocation-numbers="7"/>
-          <include name="testDivNumberPN" invocation-numbers="7"/>
+          <include name="testRemoveVowelsCharactersLL" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="testRemoveVowelsCharactersTS" invocation-numbers="3 4 6 7"/>
+          <include name="testRemoveVowelsCharactersRA" invocation-numbers="3 4 6 7"/>
+          <include name="testRemoveVowelsCharactersMS" invocation-numbers="0 1 2 3 4 6 7 8"/>
+          <include name="testRemoveVowelsCharactersPN" invocation-numbers="3 4 6 7"/>
+          <include name="testRemoveVowelsCharactersAP" invocation-numbers="0 1 2 3 4 6 7 8"/>
+          <include name="testRemoveVowelsCharactersAO" invocation-numbers="3 4 6 7"/>
         </methods>
-      </class> <!-- com.sqa.ao.helped.DivTests -->
+      </class> <!-- com.sqa.ao.helped.VowTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
