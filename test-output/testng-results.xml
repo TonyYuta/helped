@@ -1,0 +1,1924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="15" total="63" passed="48">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="112" started-at="2015-10-23T00:05:17Z" finished-at="2015-10-23T00:05:18Z">
+    <groups>
+      <group name="Phase3">
+        <method signature="DivTests.testDivNumberAO(int, int, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAO" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberAP(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAP" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberLL(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberLL" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberMS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberMS" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberPN(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberPN" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberRA(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberRA" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberTS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberTS" class="com.sqa.ao.helped.DivTests"/>
+      </group> <!-- Phase3 -->
+      <group name="Phase2">
+        <method signature="DivTests.testDivNumberAO(int, int, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAO" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberAP(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAP" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberLL(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberLL" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberMS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberMS" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberPN(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberPN" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberRA(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberRA" class="com.sqa.ao.helped.DivTests"/>
+        <method signature="DivTests.testDivNumberTS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberTS" class="com.sqa.ao.helped.DivTests"/>
+      </group> <!-- Phase2 -->
+    </groups>
+    <test name="Default test" duration-ms="112" started-at="2015-10-23T00:05:17Z" finished-at="2015-10-23T00:05:18Z">
+      <class name="com.sqa.ao.helped.DivTests">
+        <test-method status="FAIL" signature="testDivNumberAO(int, int, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAO" duration-ms="13" started-at="2015-10-22T17:05:17Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [6.0] but found [6]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [6.0] but found [6]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberAO(DivTests.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAO -->
+        <test-method status="FAIL" signature="testDivNumberAO(int, int, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAO" duration-ms="1" started-at="2015-10-22T17:05:17Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [5.0] but found [5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [5.0] but found [5]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberAO(DivTests.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAO -->
+        <test-method status="FAIL" signature="testDivNumberAO(int, int, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAO" duration-ms="1" started-at="2015-10-22T17:05:17Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [100.0] but found [100]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [100.0] but found [100]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberAO(DivTests.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAO -->
+        <test-method status="FAIL" signature="testDivNumberAO(int, int, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAO" duration-ms="0" started-at="2015-10-22T17:05:17Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.0] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.0] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberAO(DivTests.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAO -->
+        <test-method status="FAIL" signature="testDivNumberAO(int, int, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAO" duration-ms="0" started-at="2015-10-22T17:05:17Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-2.0] but found [-2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-2.0] but found [-2]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberAO(DivTests.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAO -->
+        <test-method status="FAIL" signature="testDivNumberAO(int, int, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAO" duration-ms="1" started-at="2015-10-22T17:05:17Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-5.0] but found [-5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-5.0] but found [-5]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberAO(DivTests.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAO -->
+        <test-method status="FAIL" signature="testDivNumberAO(int, int, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAO" duration-ms="1" started-at="2015-10-22T17:05:17Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [50.0] but found [50]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [50.0] but found [50]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberAO(DivTests.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAO -->
+        <test-method status="FAIL" signature="testDivNumberAO(int, int, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAO" duration-ms="0" started-at="2015-10-22T17:05:17Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-250]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-250.0] but found [-100]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-250.0] but found [-100]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberAO(DivTests.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAO -->
+        <test-method status="FAIL" signature="testDivNumberAO(int, int, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAO" duration-ms="0" started-at="2015-10-22T17:05:17Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-1000.0] but found [-1000]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-1000.0] but found [-1000]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberAO(DivTests.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAO -->
+        <test-method status="PASS" signature="testDivNumberAP(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAP" duration-ms="2" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAP -->
+        <test-method status="PASS" signature="testDivNumberAP(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAP" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAP -->
+        <test-method status="PASS" signature="testDivNumberAP(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAP" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAP -->
+        <test-method status="PASS" signature="testDivNumberAP(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAP" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAP -->
+        <test-method status="PASS" signature="testDivNumberAP(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAP" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAP -->
+        <test-method status="PASS" signature="testDivNumberAP(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAP" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAP -->
+        <test-method status="PASS" signature="testDivNumberAP(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAP" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAP -->
+        <test-method status="FAIL" signature="testDivNumberAP(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAP" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-250]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-250.0] but found [-100.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-250.0] but found [-100.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberAP(DivTests.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAP -->
+        <test-method status="PASS" signature="testDivNumberAP(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberAP" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberAP -->
+        <test-method status="PASS" signature="testDivNumberLL(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberLL" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberLL -->
+        <test-method status="PASS" signature="testDivNumberLL(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberLL" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberLL -->
+        <test-method status="PASS" signature="testDivNumberLL(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberLL" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberLL -->
+        <test-method status="PASS" signature="testDivNumberLL(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberLL" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberLL -->
+        <test-method status="PASS" signature="testDivNumberLL(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberLL" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberLL -->
+        <test-method status="PASS" signature="testDivNumberLL(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberLL" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberLL -->
+        <test-method status="PASS" signature="testDivNumberLL(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberLL" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberLL -->
+        <test-method status="FAIL" signature="testDivNumberLL(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberLL" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-250]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-250.0] but found [-100.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-250.0] but found [-100.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberLL(DivTests.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberLL -->
+        <test-method status="PASS" signature="testDivNumberLL(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberLL" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberLL -->
+        <test-method status="PASS" signature="testDivNumberMS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberMS" duration-ms="2" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberMS -->
+        <test-method status="PASS" signature="testDivNumberMS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberMS" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberMS -->
+        <test-method status="PASS" signature="testDivNumberMS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberMS" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberMS -->
+        <test-method status="PASS" signature="testDivNumberMS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberMS" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberMS -->
+        <test-method status="PASS" signature="testDivNumberMS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberMS" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberMS -->
+        <test-method status="PASS" signature="testDivNumberMS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberMS" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberMS -->
+        <test-method status="PASS" signature="testDivNumberMS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberMS" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberMS -->
+        <test-method status="FAIL" signature="testDivNumberMS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberMS" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-250]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-250.0] but found [-100.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-250.0] but found [-100.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberMS(DivTests.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberMS -->
+        <test-method status="PASS" signature="testDivNumberMS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberMS" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberMS -->
+        <test-method status="PASS" signature="testDivNumberPN(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberPN" duration-ms="2" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberPN -->
+        <test-method status="PASS" signature="testDivNumberPN(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberPN" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberPN -->
+        <test-method status="PASS" signature="testDivNumberPN(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberPN" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberPN -->
+        <test-method status="PASS" signature="testDivNumberPN(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberPN" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberPN -->
+        <test-method status="PASS" signature="testDivNumberPN(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberPN" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberPN -->
+        <test-method status="PASS" signature="testDivNumberPN(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberPN" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberPN -->
+        <test-method status="PASS" signature="testDivNumberPN(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberPN" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberPN -->
+        <test-method status="FAIL" signature="testDivNumberPN(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberPN" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-250]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-250.0] but found [-100.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-250.0] but found [-100.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberPN(DivTests.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberPN -->
+        <test-method status="PASS" signature="testDivNumberPN(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberPN" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberPN -->
+        <test-method status="PASS" signature="testDivNumberRA(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberRA" duration-ms="2" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberRA -->
+        <test-method status="PASS" signature="testDivNumberRA(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberRA" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberRA -->
+        <test-method status="PASS" signature="testDivNumberRA(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberRA" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberRA -->
+        <test-method status="PASS" signature="testDivNumberRA(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberRA" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberRA -->
+        <test-method status="PASS" signature="testDivNumberRA(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberRA" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberRA -->
+        <test-method status="PASS" signature="testDivNumberRA(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberRA" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberRA -->
+        <test-method status="PASS" signature="testDivNumberRA(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberRA" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberRA -->
+        <test-method status="FAIL" signature="testDivNumberRA(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberRA" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-250]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-250.0] but found [-100.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-250.0] but found [-100.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberRA(DivTests.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberRA -->
+        <test-method status="PASS" signature="testDivNumberRA(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberRA" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberRA -->
+        <test-method status="PASS" signature="testDivNumberTS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberTS" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberTS -->
+        <test-method status="PASS" signature="testDivNumberTS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberTS" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberTS -->
+        <test-method status="PASS" signature="testDivNumberTS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberTS" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberTS -->
+        <test-method status="PASS" signature="testDivNumberTS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberTS" duration-ms="1" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberTS -->
+        <test-method status="PASS" signature="testDivNumberTS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberTS" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberTS -->
+        <test-method status="PASS" signature="testDivNumberTS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberTS" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberTS -->
+        <test-method status="PASS" signature="testDivNumberTS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberTS" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberTS -->
+        <test-method status="FAIL" signature="testDivNumberTS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberTS" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-250]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-250.0] but found [-100.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-250.0] but found [-100.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.sqa.ao.helped.DivTests.testDivNumberTS(DivTests.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberTS -->
+        <test-method status="PASS" signature="testDivNumberTS(double, double, double)[pri:0, instance:com.sqa.ao.helped.DivTests@1596138]" name="testDivNumberTS" duration-ms="0" started-at="2015-10-22T17:05:18Z" data-provider="DivNumber Numbers" finished-at="2015-10-22T17:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNumberTS -->
+      </class> <!-- com.sqa.ao.helped.DivTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

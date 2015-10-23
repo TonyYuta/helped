@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestSuite" verbose="1">
+	<test name = "TestSuite">
+		<classes>
+			<class name="com.sqa.ao.helped.Helpedtest"/>
+		</classes>
+	</test>
+</suite>
+
