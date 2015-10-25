@@ -1,5 +1,11 @@
 package com.sqa.ao.helped;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -12,7 +18,35 @@ public class EvenTest {
 		return data;
 	}
 
+	// public static void main(String[] args) {
+	// EvenTests test = new EvenTests();
+	// test.connectDB();
+	// }
+
 	private int number = 0;
+
+	@Test
+	public void connectDB() {
+		System.out.println("Connect to database");
+		String user = "root";
+		String pass = "root";
+		String dbUrl = "jdbc:mysql://localhost:8889/sqausers";
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection dbconn = DriverManager.getConnection(dbUrl, user, pass);
+			Statement stmt = dbconn.createStatement();
+			ResultSet rs = stmt.executeQuery("select name, address, age, jobtitle from person");
+			while (rs.next()) {
+				System.out.println("User " + rs.getString("name") + " is " + rs.getString("age") + " years old.");
+			}
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 
 	@Test(groups = { "Phase2", "Phase3" }, dataProvider = "EvenOdd Numbers")
 	public void testEvenOddAO(int number, boolean expResult) {
