@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sqa.ao.helped.RevTests">
+      <class name="com.sqa.ao.helped.CalcAreaStaticTests">
         <methods>
-          <include name="testReverseStringCharactersLL" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="testCalcAreaStaticTS" invocation-numbers="0 1"/>
+          <include name="testCalcAreaStaticAO" invocation-numbers="0 1"/>
+          <include name="testCalcAreaStaticAP" invocation-numbers="0 1"/>
+          <include name="testCalcAreaStaticPN" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- com.sqa.ao.helped.RevTests -->
+      </class> <!-- com.sqa.ao.helped.CalcAreaStaticTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
