@@ -118,5 +118,4 @@ public class EvenTest {
 			Assert.assertFalse(isEven);
 		}
 	}
-
 }
