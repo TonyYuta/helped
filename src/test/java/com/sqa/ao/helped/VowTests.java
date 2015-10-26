@@ -8,8 +8,8 @@ public class VowTests {
 	@DataProvider(name = "Not Vowels Characters")
 	public static Object[][] dataSet2() {
 		Object[][] data = new Object[][] { { "test", "tst" }, { "java classes", "jv clsss" }, { "google", "ggl" },
-				{ "yg yg", "g g" }, { "ydysya h", "ds h" }, { "1234 5 6", "1234 5 6" }, { "AaEeUuIiO oYy", " " },
-				{ "a ab a", "  b " }, { "1     a", "1     " } };
+				{ "Og ug", "g g" }, { "ydysya h", "ds h" }, { "1234 5 6", "1234 5 6" }, { "AaEeUuIiO oYy", " " },
+				{ "a ab a", " b " }, { "1     a", "1     " } };
 		return data;
 	}
 
